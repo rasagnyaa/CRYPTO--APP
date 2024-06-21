@@ -95,7 +95,7 @@ function displayCoins(coins) {
   });
   let getimg2=document.getElementById("img2")
   getimg2.addEventListener("click",()=>{
-    window.open("../cryptocurrency/homepage.html")
+    window.open("../cryptocurrency/index.html")
   })
 }
 
