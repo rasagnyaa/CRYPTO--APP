@@ -20,6 +20,9 @@ rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css"
 rel="stylesheet"
 />
+<style>
+
+</style>
 </head>
 <body>
    
@@ -89,11 +92,11 @@ rel="stylesheet"
         </div>
   
         <!-- Submit button -->
-        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">Sign in</button>
+        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4" id="btn2">Sign in</button>
   
         <!-- Register buttons -->
         <div class="text-center">
-          <p>Not a member? <a href="#!">Register</a></p>
+          <p>Not a member? <a href="../cryptocurrency/form.html">Register</a></p>
         </div>
       </form>
     </div>
@@ -161,11 +164,18 @@ rel="stylesheet"
         </div>
   
         <!-- Submit button -->
-        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-3">Sign in</button>
+        <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-3"id="btn1">Sign in</button>
       </form>
     </div>
   </div>
-
+  <script>
+    let getbutton=document.getElementById("btn1").addEventListener("click",()=>{
+      window.open("../cryptocurrency/index.html")
+    })
+    let getbutton2=document.getElementById("btn2").addEventListener("click",()=>{
+      window.open("../cryptocurrency/index.html")
+    })
+  </script>
 <script
 type="text/javascript"
 src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"
