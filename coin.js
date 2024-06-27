@@ -93,8 +93,8 @@ function displayCoins(coins) {
 
     coinBody.appendChild(tr);
   });
-  let getimg2=document.getElementById("img2")
-  getimg2.addEventListener("click",()=>{
+  let BackwardIcon=document.getElementById("backward")
+  BackwardIcon.addEventListener("click",()=>{
     window.open("./index.html")
   })
 }

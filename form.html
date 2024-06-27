@@ -62,13 +62,13 @@
 
         <!-- Email input -->
         <div data-mdb-input-init class="form-outline mb-4">
-          <input type="email" id="loginName" class="form-control" />
+          <input type="email" id="loginName" class="form-control" required />
           <label class="form-label" for="loginName">Email or username</label>
         </div>
 
         <!-- Password input -->
         <div data-mdb-input-init class="form-outline mb-4">
-          <input type="password" id="loginPassword" class="form-control" />
+          <input type="password" id="loginPassword" class="form-control" required />
           <label class="form-label" for="loginPassword">Password</label>
         </div>
 
@@ -124,38 +124,38 @@
 
         <!-- Name input -->
         <div data-mdb-input-init class="form-outline mb-4">
-          <input type="text" id="registerName" class="form-control" />
+          <input type="text" id="registerName" class="form-control" required />
           <label class="form-label" for="registerName">Name</label>
         </div>
 
         <!-- Username input -->
         <div data-mdb-input-init class="form-outline mb-4">
-          <input type="text" id="registerUsername" class="form-control" />
+          <input type="text" id="registerUsername" class="form-control" required />
           <label class="form-label" for="registerUsername">Username</label>
         </div>
 
         <!-- Email input -->
         <div data-mdb-input-init class="form-outline mb-4">
-          <input type="email" id="registerEmail" class="form-control" />
+          <input type="email" id="registerEmail" class="form-control" required />
           <label class="form-label" for="registerEmail">Email</label>
         </div>
 
         <!-- Password input -->
         <div data-mdb-input-init class="form-outline mb-4">
-          <input type="password" id="registerPassword" class="form-control" />
+          <input type="password" id="registerPassword" class="form-control" required />
           <label class="form-label" for="registerPassword">Password</label>
         </div>
 
         <!-- Repeat Password input -->
         <div data-mdb-input-init class="form-outline mb-4">
-          <input type="password" id="registerRepeatPassword" class="form-control" />
+          <input type="password" id="registerRepeatPassword" class="form-control" required />
           <label class="form-label" for="registerRepeatPassword">Repeat password</label>
         </div>
 
         <!-- Checkbox -->
         <div class="form-check d-flex justify-content-center mb-4">
           <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
-            aria-describedby="registerCheckHelpText" />
+            aria-describedby="registerCheckHelpText" required />
           <label class="form-check-label" for="registerCheck">
             I have read and agree to the terms
           </label>
@@ -168,10 +168,15 @@
     </div>
   </div>
   <script>
+
     let getbutton = document.getElementById("btn1").addEventListener("click", () => {
       window.open("./index.html")
+
     })
+
     let getbutton2 = document.getElementById("btn2").addEventListener("click", () => {
+
+
       window.open("./index.html")
     })
   </script>
